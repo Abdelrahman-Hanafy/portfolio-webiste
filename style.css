@@ -63,7 +63,7 @@ section {
 }
 
 .main h2 span {
-    display: inline-block;
+    display: block;
     margin-top: 10px;
     color: #4e9eff;
     font-size: 3em;
@@ -172,12 +172,12 @@ section {
 }
 
 .project-card:hover {
-   transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .project-card:hover .project-image {
     opacity: 0.9;
- }
+}
 
 .project-image img{
     width: 100%
@@ -296,7 +296,6 @@ section {
 @media (max-width:300px){
     body{
         font-size: 10px;
-     
     }
 }
 
